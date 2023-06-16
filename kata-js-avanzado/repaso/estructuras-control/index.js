@@ -133,3 +133,20 @@ for(let contador = 0; contador < 5; contador++) {
  * 
  */
 
+console.group('Ejercicio for')
+
+let acumulador = 0 
+let totalCalificiones = 7
+
+for(let contador = 0; contador < totalCalificiones; contador++) {
+  let calificacion = Number(prompt('Ingresa la calificacion: '))
+  // acumulador = acumulador + calificacion
+  acumulador += calificacion
+}
+
+let promedio = acumulador / totalCalificiones
+contador < totalCalificiones
+
+console.log('Tu promedio es de: ', promedio)
+
+console.groupEnd()
