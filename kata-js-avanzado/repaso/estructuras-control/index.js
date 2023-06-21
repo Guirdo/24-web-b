@@ -135,17 +135,17 @@ for(let contador = 0; contador < 5; contador++) {
 
 console.group('Ejercicio for')
 
-let acumulador = 0 
-let totalCalificiones = 7
+let acumulador = 0
+const totalCalificiones = Number(prompt('Ingresa el total de calificaciones: '))
 
 for(let contador = 0; contador < totalCalificiones; contador++) {
-  let calificacion = Number(prompt('Ingresa la calificacion: '))
+  let calificacion = Number(prompt(`Ingresa la calificacion #${contador+1}: `))
   // acumulador = acumulador + calificacion
   acumulador += calificacion
 }
 
 let promedio = acumulador / totalCalificiones
-contador < totalCalificiones
+//contador < totalCalificiones
 
 console.log('Tu promedio es de: ', promedio)
 
